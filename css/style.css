@@ -1,0 +1,307 @@
+.container-fluid {
+	background: #262d37 !important;
+	padding: 5px !important;
+
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.margin-top {
+	margin-top: 5px;
+}
+
+.prop-one {
+	margin-bottom: -5px;
+}
+video {
+	margin: 0px;
+	padding: 0px;
+	background: red;
+}
+
+.margin-left {
+	margin-left: 5px;
+}
+
+.margin-right {
+	margin-right: 5px;
+}
+
+.col-sm-4 {
+
+}
+
+header {
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.main-nav {
+	width: 20%;
+	max-width: 60px;
+	height: 60px;
+	float: left;
+	background: #313842;
+}
+
+.nav-icon{
+  height:60px;
+  width:60px;
+  position:relative;
+  }
+  .span {
+    height:3px;
+    width:18px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    background: #fb992d;
+    transition:all 0.3s;
+    }
+    .span::before, .span::after {
+      height:3px;
+      width:100%;
+      background: #fb992d;
+      position:absolute;
+      content: "";
+    }
+    .span::after {
+      top:7px;
+    }
+    .span::before {
+      top:-7px;
+    }
+  
+.logo-container {
+	background: #313842;
+	margin-left: 2px;
+	height: 60px;
+	width: 79.889%;
+	display: inline-block;
+}
+
+.logo-container img {
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+.main-slider {
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	overflow-y:hidden;
+	position: relative;
+}
+
+.manifesto-header {
+	width: 100%;
+	background: #313842;
+	color: #16ffc7;
+	margin-top: 5px;
+}
+
+.manifesto-header p {
+	padding: 0;
+	margin: 0;
+	font-family: Avenir Next;
+	font-weight: regular;
+	padding: 10px;
+	padding-top: 12px;
+}
+
+.manifesto {
+	width: 100%;
+	background: #313842;
+	color: white;
+	font-family: Avenir Next;
+	font-weight: 200;
+	margin-top: 5px;
+}
+
+.manifesto p {
+	margin: 0;
+	padding: 10px;
+	text-align: left;
+	font-size: 1em;
+}
+
+@media (min-width: 360px){
+	
+.logo-container {
+	width: 82.222%;
+	}
+
+.logo-container img {
+	margin-left: 30%;
+	}
+
+
+
+}
+
+@media (min-width: 375px){
+	
+.logo-container {
+	width: 83%;
+	}
+
+.logo-container img {
+	margin-left: 30%;
+	}
+
+
+
+}
+
+@media (min-width: 414px){
+	
+.logo-container {
+	width: 84.555%;
+	}
+
+.logo-container img {
+	margin-left: 32%;
+	}
+
+
+
+}
+
+@media (min-width: 600px){
+	
+.logo-container {
+	width: 89.444%;
+	}
+
+.logo-container img {
+	margin-left: 40%;
+	}
+
+
+
+}
+
+@media (min-width: 768px){
+	
+.logo-container {
+	width: 91.777%;
+	}
+
+.logo-container img {
+	margin-left: 40%;
+	}
+
+.properties img {
+	width: 98%;
+}
+
+.properties video {
+	width: 98%;
+}
+
+.properties .manifesto {
+	width: 98%;
+}
+
+}
+
+@media (min-width: 990px){
+	
+.logo-container {
+	width: 93.666%;
+	}
+
+.logo-container img {
+	margin-left: 43%;
+	}
+}
+
+@media (min-width: 992px){
+	
+.logo-container {
+	width: 93.666%;
+	}
+
+.logo-container img {
+	margin-left: 43%;
+	}
+
+
+.margin-left-md {
+	margin-left: 5px;
+}
+
+.properties img {
+	width: 98%;
+}
+
+.properties .manifesto {
+	width: 98%;
+}
+
+}
+
+@media (min-width: 1200px){
+	
+.logo-container {
+	width: 94.777%;
+	}
+
+.fixed-size {
+	height: 528px;
+}
+.logo-container img {
+	margin-left: 43%;
+	}
+}
+
+@media (min-width: 1280px){
+	
+.logo-container {
+	width: 95.111%;
+	}
+
+.logo-container img {
+	margin-left: 43%;
+	}
+
+.overflow {
+	height: 472px;
+	overflow-y: hidden;
+	}
+}
+
+@media (min-width: 1440px){
+	
+.logo-container {
+	width: 95.666%;
+	}
+
+.logo-container img {
+	margin-left: 43.444%;
+	}
+
+.overflow {
+	height: 500px;
+	overflow-y: hidden;
+	}
+.fixed-size {
+	height: 550px;
+}
+
+}
