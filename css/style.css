@@ -140,6 +140,20 @@ header {
 	font-size: 1em;
 }
 
+
+ul li {
+	color: #16ffc7;
+}
+
+ul {
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+ul li span {
+	color: white;
+}
+
 @media (min-width: 360px){
 	
 .logo-container {
@@ -216,6 +230,10 @@ header {
 
 .properties .manifesto {
 	width: 98%;
+}
+
+.move-right {
+	margin-left: 8%;
 }
 
 }
